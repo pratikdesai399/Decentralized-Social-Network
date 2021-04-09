@@ -1,5 +1,5 @@
-const Decentragram = artifacts.require("Decentragram");
+const SocialNetwork = artifacts.require("SocialNetwork");
 
 module.exports = function(deployer) {
-  // Code goes here...
+  deployer.deploy(SocialNetwork);
 };
